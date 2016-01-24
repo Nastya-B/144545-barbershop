@@ -1,6 +1,7 @@
-# Учебный проект «Барбершоп»
+﻿# Учебный проект «Барбершоп»
 
 * Студент: [Anastasia Borodulina](https://htmlacademy.ru/profile/id144545).
+* Наставник: [Андрей Серёдкин](https://htmlacademy.ru/profile/midler).
 
 ---
 
