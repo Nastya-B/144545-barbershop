@@ -2,28 +2,33 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css\style.css">
     <title>HTML Academy: Барбершоп</title>
   </head>
 
   <body>
-    <img class="mini-logo" src="http://placehold.it/100x50">
-    <nav>
-      <ul>
-        <li class="top-menu"> <a href="#">Информация</a> </li>
-        <li class="top-menu"> <a href="#">Новости</a> </li>
-        <li class="top-menu"> <a href="#">Прайс-лист</a> </li>
-        <li class="top-menu main-menu"> <a href="#">Магазин</a> </li>
-        <li class="top-menu"> <a href="#">Контакты</a> </li>
-        <li class="top-menu"> <a href="#" class="login">Вход</a> </li>
-      </ul>
-   </nav>
+    <header>
+      <img class="mini-logo" src="img\Logo.png" width="111" height="24">
+      <nav class="main-menu">
+        <ul>
+          <li> <a href="#">Информация</a> </li>
+          <li> <a href="#">Новости</a> </li>
+          <li> <a href="#">Прайс-лист</a> </li>
+          <li class="active"> <a href="#">Магазин</a> </li>
+          <li> <a href="#">Контакты</a> </li>
+          <li> <a href="#" class="login">Вход</a> </li>
+        </ul>
+     </nav>
 
- <h1 class="page-title">Средства для ухода</h1>
-  <ul class="breadcrumb">
-   <li><a href="#">Главная</a></li>
-   <li><a href="#">Магазин</a></li>
-   <li class="active">Средства для ухода</li>
-  </ul>
+     <h1 class="page-title">Средства для ухода</h1>
+       <nav class="breadcrumb">
+         <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li class="active">Средства для ухода</li>
+         </ul>
+       </nav>
+    </header>
 
      <form class="filter" name="filter" action="#">
        <fieldset>
