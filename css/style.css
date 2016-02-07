@@ -60,12 +60,15 @@ header {
   min-height: 40px;
   float:left;
   width:100%;
+  outline: 1px dashed black;
 }
 
 .breadcrumb {
   min-height: 20px;
   float:left;
   width:100%;
+  outline: 1px dashed black;
+  margin-bottom: 50px;
 }
 
 .column-left {
@@ -98,6 +101,9 @@ header {
 }
 
 footer {
+  outline: 1px solid green;
+  min-width: 768px;
+  max-width: 1200px;
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -124,4 +130,38 @@ footer {
   width: 180px;
   min-height: 90px;
   margin-top: 57px;
+}
+
+.gallery {
+  width: 460px;
+  float: left;
+  min-height: 670px;
+}
+
+.main-img {
+  width: 460px;
+  height: 500px;
+  float: left;
+  margin-bottom: 20px;
+  outline: 1px dashed black;
+}
+
+.preview {
+  width: 140px;
+  height: 147px;
+  float: left;
+  outline: 1px dashed black;
+  margin-right: 20px;
+}
+
+.preview:last-child {
+  margin-right: 0;
+  float:right;
+}
+
+.description {
+  float: right;
+  min-height: 540px;
+  width: 400px;
+  outline: 1px dashed black;
 }
