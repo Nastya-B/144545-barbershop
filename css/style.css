@@ -3,7 +3,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
-  font-size: 30px;
+  font-size: 12px;
   color: #000000;
 }
 
@@ -13,4 +13,115 @@ h1 {
 
 h2 {
   font-size: 14px;
+}
+
+header {
+  outline: 1px solid green;
+  min-width: 768px;
+  max-width: 1200px;
+  min-height: 70px;
+  margin-bottom: 25px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.container {
+  outline: 1px solid blue;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 140px;
+  min-height: 70px;
+  margin-right: 10px;
+  float: left;
+}
+
+.main-navigation {
+  width: 640px;
+  min-height: 70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+  min-height: 70px;
+}
+
+.page-title {
+  min-height: 40px;
+  float:left;
+  width:100%;
+}
+
+.breadcrumb {
+  min-height: 20px;
+  float:left;
+  width:100%;
+}
+
+.column-left {
+  min-height: 600px;
+  float:left;
+  width:240px;
+  outline: 2px solid #f3fc07;
+}
+
+.column-right {
+  min-height: 600px;
+  float:right;
+  width:720px;
+  outline: 2px solid #f3fc07;
+}
+
+.item-block {
+  width: 220px;
+  min-height: 285px;
+  float: left;
+  margin: 10px 10px;
+  outline: 2px solid #fc07bf;
+}
+
+.pagination {
+  outline: 2px solid #fc07bf;
+  float: left;
+  margin-left: 250px;
+  min-height: 40px;
+}
+
+footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 188px;
+}
+
+.contact {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+  margin-top: 57px;
+}
+
+.social-buttons {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+  margin-top: 57px;
+}
+
+.copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+  margin-top: 57px;
 }
